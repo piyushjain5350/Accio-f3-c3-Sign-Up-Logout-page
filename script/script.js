@@ -11,6 +11,8 @@ const signUp=document.getElementById("signUpBtn");
 signUp.addEventListener('click',(e)=>{
     e.preventDefault();
 
+    errorContainer.innerHTML=' ';
+
     if(nameInput.value.trim()===''||
        email.value.trim()===''||
        password.value.trim()===''||
