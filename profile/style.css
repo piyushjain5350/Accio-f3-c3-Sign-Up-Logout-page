@@ -78,5 +78,6 @@ span{
 @media screen and (max-width: 600px){
     .profile-container{
         width: 80vw;
+        font-size: 16px;
     }
 }
